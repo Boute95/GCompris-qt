@@ -289,6 +289,20 @@ Item {
                 updateValueWhileDragging: true
                 value: baseFontSize
                 onValueChanged: ApplicationSettings.baseFontSize = value;
+                MouseArea {
+                    anchors.fill: parent
+                    onWheel: {
+                        mouse.accepted = true
+                    }
+                    onPressed: {
+                        // forward mouse event
+                        mouse.accepted = false
+                    }
+                    onReleased: {
+                        // forward mouse event
+                        mouse.accepted = false
+                    }
+                }
             }
             GCText {
                 id: baseFontSizeText
@@ -327,6 +341,20 @@ Item {
                 updateValueWhileDragging: true
                 value: fontLetterSpacing
                 onValueChanged: ApplicationSettings.fontLetterSpacing = value
+                MouseArea {
+                    anchors.fill: parent
+                    onWheel: {
+                        mouse.accepted = true
+                    }
+                    onPressed: {
+                        // forward mouse event
+                        mouse.accepted = false
+                    }
+                    onReleased: {
+                        // forward mouse event
+                        mouse.accepted = false
+                    }
+                }
             }
             GCText {
                 id: fontLetterSpacingText
