@@ -2,3 +2,4 @@
 * TODO [#C] [IDEE] Couleurs coucher de soleil activité cycle de l'eau
 * TODO [#C] [IDEE] Scroll bar menu principal
 * TODO [#B] [IDEE] Retirer scroll changement paramètres menu config
+* TODO [#C] [IDEE] Ajouter bruitage quand on éteint le feu

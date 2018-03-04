@@ -291,15 +291,11 @@ Item {
                 onValueChanged: ApplicationSettings.baseFontSize = value;
                 MouseArea {
                     anchors.fill: parent
-                    onWheel: {
-                        mouse.accepted = true
-                    }
+                    onWheel: {}
                     onPressed: {
-                        // forward mouse event
                         mouse.accepted = false
                     }
                     onReleased: {
-                        // forward mouse event
                         mouse.accepted = false
                     }
                 }
@@ -343,15 +339,11 @@ Item {
                 onValueChanged: ApplicationSettings.fontLetterSpacing = value
                 MouseArea {
                     anchors.fill: parent
-                    onWheel: {
-                        mouse.accepted = true
-                    }
+                    onWheel: {}
                     onPressed: {
-                        // forward mouse event
                         mouse.accepted = false
                     }
                     onReleased: {
-                        // forward mouse event
                         mouse.accepted = false
                     }
                 }
