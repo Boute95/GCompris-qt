@@ -287,7 +287,7 @@ Item {
                 stepSize: 1.0
                 value: baseFontSize
                 onValueChanged: ApplicationSettings.baseFontSize = value;
-                scrollEnabled: true
+                scrollEnabled: false
             }
             GCText {
                 id: baseFontSizeText
