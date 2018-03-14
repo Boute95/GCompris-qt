@@ -52,8 +52,8 @@ Slider {
 
     // Removes scrolling when hovering sliders if scrollEnabled = false
     MouseArea {
-        width: 0
-        anchors.fill: if (!scrollEnabled) parent
+        anchors.fill: parent
+        enabled: !scrollEnabled
         onWheel: {}
         onPressed: mouse.accepted = false
         onReleased: mouse.accepted = false
