@@ -1,4 +1,3 @@
-
 /* GCompris - ConfigurationItem.qml
  *
  * Copyright (C) 2014-2016 Johnny Jazeix <jazeix@gmail.com>
