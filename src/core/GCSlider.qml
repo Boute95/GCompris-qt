@@ -56,11 +56,8 @@ Slider {
         width: 0
         anchors.fill: if (!scrollEnabled) parent
         onWheel: {}
-        onPressed: {
-            mouse.accepted = false
-        }
-        onReleased:
-            mouse.accepted = false
+        onPressed: mouse.accepted = false
+        onReleased: mouse.accepted = false
     }
 
 }
