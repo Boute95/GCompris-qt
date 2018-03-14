@@ -283,7 +283,6 @@ Item {
                 width: 250 * ApplicationInfo.ratio
                 maximumValue: ApplicationSettings.baseFontSizeMax
                 minimumValue: ApplicationSettings.baseFontSizeMin
-                stepSize: 1.0
                 value: baseFontSize
                 onValueChanged: ApplicationSettings.baseFontSize = value;
                 scrollEnabled: false
@@ -319,7 +318,6 @@ Item {
                 width: 250 * ApplicationInfo.ratio
                 maximumValue: ApplicationSettings.fontLetterSpacingMax
                 minimumValue: ApplicationSettings.fontLetterSpacingMin
-                stepSize: 1.0
                 value: fontLetterSpacing
                 onValueChanged: ApplicationSettings.fontLetterSpacing = value;
                 scrollEnabled: false

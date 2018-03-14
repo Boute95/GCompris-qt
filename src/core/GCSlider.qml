@@ -1,5 +1,4 @@
 /* GCompris - GCSlider.qml
-
  *
  * Copyright (C) 2018 Alexis Breton <alexis95150@gmail.com>
  *
